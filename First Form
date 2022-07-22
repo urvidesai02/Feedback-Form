@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>feedback</title>
+        <style>
+            body {
+                background-color: rgb(243, 228, 200);
+            }
+            form{
+                padding-top: 1%;
+                padding-left: 1%;
+                background-color: rgb(200, 200, 243);
+                border: 5%;
+                border: solid;
+            }
+            header {
+                text-align: center;
+                padding-bottom: 2%;
+                background-color: rgb(64, 72, 190);
+                border: solid;
+            }
+            h2 {
+                padding-top: 2%;
+                color:rgb(251, 254, 255);
+                font-family: "Georgia";
+            }
+            textarea {
+                width: 80%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+            }
+            label {
+                color: rgb(33, 33, 90);
+            }
+        </style>
+    </head>
+    <body>
+        <header><h2>Customer Feedback Form</h2></header>
+        <br>
+        <form>
+            <label for="fname">First name:</label><br>
+            <textarea rows="1"></textarea>
+            <br>
+            <label for="lname">Last name:</label><br>
+            <br><textarea rows="1"></textarea>
+            <br><br><label for="rating">How would you rate your experience?</label>
+            <input type="radio" id="poor" value="Poor">
+            <label for="poor">Poor</label>
+            <input type="radio" id="average" value="Average">
+            <label for="average">Average</label>
+            <input type="radio" id="excellent" value="Excellent">
+            <label for="excellent">Excellent</label><br><br>
+            <label for="rating">Would you recommend our services to friends/family?</label>
+            <input type="radio" id="yes" value="Yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" value="No">
+            <label for="no">No</label><br><br>
+            <label for="others">Any other suggestions:</label><br>
+            <textarea rows="10"></textarea><br><br>
+        </form>
+    </body>
+</html>
